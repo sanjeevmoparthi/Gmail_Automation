@@ -25,12 +25,12 @@ from googleapiclient.discovery import build
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
-CREDENTIALS_FILE = 'credentials.json'
-TOKEN_FILE = 'token.json'
-EXCEL_FILE = 'email_list.xlsx'
-LOG_FILE = 'email_automation.log'
+CREDENTIALS_FILE = '/app/secrets/credentials.json'
+TOKEN_FILE = '/app/secrets/token.json'
+EXCEL_FILE = '/app/secrets/email_list.xlsx'
+LOG_FILE = '/app/secrets/email_automation.log'
 
-EMAIL_SUBJECT = "Monthly Update"
+EMAIL_SUBJECT = "Regards Office Timing"
 
 
 # ==============================
@@ -211,7 +211,7 @@ def main():
             email_body = f"""
 Hi {name},
 
-This is your monthly automated update.
+I Hope You reached On time.itsn Already 10 'o'clock.
 
 Date: {datetime.today().strftime('%d-%m-%Y')}
 
