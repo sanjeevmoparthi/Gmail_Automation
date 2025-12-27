@@ -1,0 +1,7 @@
+venvGmail
+credentials.json
+token.json
+email_list.xlsx
+email_automation.log
+*.html
+__pycache__/
