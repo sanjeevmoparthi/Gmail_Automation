@@ -1,0 +1,1 @@
+Docker-based Gmail automation system deployed on AWS EC2 with GitHub CI-style flow and monthly scheduling.
